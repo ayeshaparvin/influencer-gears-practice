@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    margin: auto;
+    width: 900px;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+}
+.logo-name{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.list-items ul{
+    display: flex;
+}
+.list-items li{
+    list-style: none;
+    margin-right: 34px;
+}
+.list-items li:nth-child(6){
+    margin-right: 0px;
+}
+.list-items li a{
+    color: #3A3A3A;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: 600;
+}
